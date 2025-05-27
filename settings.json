@@ -1,0 +1,580 @@
+{
+  // * Editor Configs
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.inlayHints.fontSize": 14,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.5,
+  "editor.rulers": [
+    100
+  ],
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 100,
+  "editor.wrappingIndent": "indent",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.renderControlCharacters": false,
+  "editor.cursorSurroundingLines": 8,
+  "editor.lineNumbers": "relative",
+  "editor.cursorSurroundingLinesStyle": "all",
+  // * Files Configs
+  "files.defaultLanguage": "go",
+  "files.eol": "\n",
+  "files.autoSave": "afterDelay",
+  "files.simpleDialog.enable": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.json": "jsonc",
+    "*.yaml": "yaml"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "files.watcherExclude": {
+    "**/bin/**": true,
+    "**/vendor/**": true,
+    "**/.vscode-test/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.hg/store/**": true
+  },
+  // * Terminal Configs
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.env.windows": {
+    "GOPROXY": "https://proxy.golang.org,direct",
+    "GOSUMDB": "sum.golang.org",
+    "GOPRIVATE": "github.com/onlytesting-user/*"
+  },
+  // * Explorer Configs
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": false,
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.go": "${capture}_test.go, ${capture}_mock.go, ${capture}_gen.go, ${capture}_pb.go",
+    "go.mod": "go.sum",
+    ".env": ".*.env, .env.*, *.env.",
+    "Dockerfile": "Dockerfile*, .dockerignore",
+    "README.md": "*.md, LICENSE",
+    ".gitattributes": ".gitmodules, .gitignore, .gitkeep, .gitlab-ci.yml",
+    "Makefile": "*.mk",
+    "schema.sql": "*.sql, *.db, *.sqlite, *.pgsql"
+  },
+  // * diffEditor Configs
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.wordWrap": "on",
+  // * Git Configs
+  "git.openRepositoryInParentFolders": "always",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.fetchOnPull": true,
+  "git.alwaysShowStagedChangesResourceGroup": true,
+  "git.enableSmartCommit": true,
+  "git.pruneOnFetch": true,
+  "git.inputValidation": true,
+  "git.mergeEditor": true,
+  // * Breadcrumbs Configs
+  "breadcrumbs.enabled": false,
+  // * Window Configs
+  "window.commandCenter": false,
+  "window.density.editorTabHeight": "compact",
+  "window.newWindowDimensions": "inherit",
+  "window.openFoldersInNewWindow": "on",
+  "window.autoDetectHighContrast": false,
+  "window.titleBarStyle": "custom",
+  "window.restoreWindows": "none",
+  // * Extensions Configs
+  "extensions.ignoreRecommendations": true,
+  "extensions.autoCheckUpdates": true,
+  // * Chat Configs
+  "chat.commandCenter.enabled": false,
+  // * Security Configs
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "security.promptForLocalFileProtocolHandling": true,
+  // * Update Configs
+  "update.mode": "default",
+  "update.showReleaseNotes": false,
+  "update.enableWindowsBackgroundUpdates": true,
+  // * Workbench Configs
+  "workbench.colorTheme": "One Dark Pro Monokai Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorCustomizations": {
+    "terminal.ansiCyan": "#FFA500"
+  },
+  // * Configs for Go
+  "go.lintTool": "golangci-lint",
+  "go.formatTool": "goimports",
+  "go.lintOnSave": "file",
+  "go.testOnSave": false, // for easy activation/deactivation
+  "go.coverOnSave": false, // for easy activation/deactivation
+  "go.diagnostic.vulncheck": "Imports",
+  "go.coverageOptions": "showUncoveredCodeOnly",
+  "go.coverOnTestPackage": true,
+  "go.coverOnSingleTest": false,
+  "go.toolsManagement.autoUpdate": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.compositeLiteralTypes": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "go.inlayHints.constantValues": true,
+  "go.coverageDecorator": {
+    "type": "gutter"
+  },
+  "go.enableCodeLens": {
+    "runtest": true
+  },
+  "go.addTags": {
+    "tags": "json,db",
+    "options": "json=omitempty",
+    "transform": "snakecase"
+  },
+  "[go]": {
+    "editor.snippetSuggestions": "inline",
+    "editor.defaultFormatter": "golang.go",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    },
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "on"
+    }
+  },
+  "[go.mod]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "gopls": {
+    "analyses": {
+      "unusedparams": true,
+      "nilness": true,
+      "shadow": true,
+      "unusedwrite": true
+    },
+    "staticcheck": true,
+    "ui.completion.usePlaceholders": true,
+    "formatting.gofumpt": true,
+    "ui.semanticTokens": true,
+    "ui.navigation.importShortcut": "Definition"
+  },
+  "go.toolsEnvVars": {
+    "GOPROXY": "https://proxy.golang.org,direct",
+    "GOSUMDB": "sum.golang.org",
+    "GOPRIVATE": "github.com/onlytesting-user/*"
+  },
+  "go.formatFlags": [
+    "-local=github.com/onlytesting-user/*"
+  ],
+  "go.testFlags": [
+    "-v",
+    "-cover",
+    "-count=1",
+    "-race",
+    "-s",
+    "-benchtime=5s",
+    "-timeout=5m"
+  ],
+  "go.lintFlags": [
+    "--config=.golangci.yml",
+    "--fast",
+    "--timeout=5m",
+    "--fix"
+  ],
+  // * Configs for JSONC
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // * Configs for YAML
+  "yaml.schemas": {
+    "kubernetes": [
+      "/*.yaml",
+      "/*.yml"
+    ]
+  },
+  // * Configs for Markdown
+  "markdown-preview-github-styles.colorTheme": "dark",
+  "markdown.validate.enabled": true,
+  // * Configs for Themes
+  "theme-by-language.themes": {
+    "*": "One Dark Pro Monokai Darker",
+    "filename:COMMIT_EDITMSG": "Default Dark Modern"
+  },
+  // * Configs for Database Client
+  "database-client.autoSync": true,
+  // * Configs for Code Runner
+  "code-runner.runInTerminal": true,
+  "code-runner.enableAppInsights": false,
+  "code-runner.executorMap": {
+    "go": "go run",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash"
+  },
+  // * Configs for Code Spell Checker
+  "cSpell.language": "en,pt,pt_BR",
+  // * Configs for Vim
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": false,
+  "vim.hlsearch": true,
+  "vim.useCtrlKeys": true,
+  "vim.smartRelativeLine": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 189, 47, 0.5)",
+  "vim.highlightedyank.textColor": "#000000",
+  "vim.highlightedyank.duration": 400,
+  "vim.leader": "<space>",
+  // Keybindings
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "g",
+        "c"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "K"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "y"
+      ],
+      "commands": [
+        "copyFilePath"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "d"
+      ],
+      "commands": [
+        "editor.action.revealDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "D"
+      ],
+      "commands": [
+        "editor.action.goToTypeDefinition"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.goToReferences"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>"
+      ],
+      "commands": [
+        "whichkey.show"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "c"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    },
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    }
+   ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [],
+      "commands": [
+        "extension.vim_escape"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [],
+      "commands": [
+        "extension.vim_escape"
+      ]
+    }
+  ],
+  // Which Key Settings
+  "whichkey.useFullWidthCharacters": true,
+  "whichkey.bindingOverrides": [],
+  "whichkey.bindings": [
+    {
+      "key": "/",
+      "name": "[/] Fuzzy search in current editor",
+      "type": "command",
+      "command": "fuzzySearch.activeTextEditor"
+    },
+    {
+      "key": "a",
+      "name": "[A]dd editor to harpoon",
+      "type": "command",
+      "command": "vscode-harpoon.addEditor"
+    },
+    {
+      "key": "e",
+      "name": "[E]dit harpoon editors",
+      "type": "command",
+      "command": "vscode-harpoon.editEditors"
+    },
+    {
+      "key": "f",
+      "name": "[F]ormat Document",
+      "type": "command",
+      "command": "editor.action.formatDocument"
+    },
+    {
+      "key": "T",
+      "name": "Open File [T]ree",
+      "type": "command",
+      "command": "workbench.view.explorer"
+    },
+    {
+      "key": "s",
+      "name": "[S]earch",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "h",
+          "name": "[S]earch [H]arpoon Editors",
+          "type": "command",
+          "command": "vscode-harpoon.editorQuickPick"
+        },
+        {
+          "key": "p",
+          "name": "[S]earch Command [P]alette",
+          "type": "command",
+          "command": "workbench.action.showCommands"
+        },
+        {
+          "key": "f",
+          "name": "[S]earch [F]iles",
+          "type": "command",
+          "command": "workbench.action.quickOpen"
+        },
+        {
+          "key": "k",
+          "name": "[S]earch [K]eybindings",
+          "type": "command",
+          "command": "workbench.action.openGlobalKeybindings"
+        },
+        {
+          "key": "e",
+          "name": "[S]earch [E]xtensions",
+          "type": "command",
+          "command": "workbench.view.extensions"
+        },
+        {
+          "key": ".",
+          "name": "[S]earch Recent Files",
+          "type": "command",
+          "command": "workbench.action.openRecent"
+        },
+        {
+          "key": "g",
+          "name": "[S]earch in Project",
+          "type": "command",
+          "command": "workbench.action.findInFiles"
+        }
+      ]
+    },
+    // LSP
+    {
+      "key": "c",
+      "name": "[C]ode",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "a",
+          "name": "[C]ode [A]ctions",
+          "type": "command",
+          "command": "editor.action.quickFix"
+        },
+        {
+          "key": "h",
+          "name": "[C]ode [H]over",
+          "type": "command",
+          "command": "editor.action.showHover"
+        }
+      ]
+    },
+    {
+      "key": "r",
+      "name": "[R]efactor",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "c",
+          "name": "[R]efactor [C]ode",
+          "type": "command",
+          "command": "editor.action.refactor"
+        },
+        {
+          "key": "n",
+          "name": "[R]e[N]ame Symbol",
+          "type": "command",
+          "command": "editor.action.rename"
+        },
+        {
+          "key": "d",
+          "name": "[R]un with [D]ebugging",
+          "type": "command",
+          "command": "workbench.action.debug.start"
+        },
+        {
+          "key": "r",
+          "name": "[R]un Without debugging",
+          "type": "command",
+          "command": "workbench.action.debug.run"
+        }
+      ]
+    },
+    {
+      "key": "g",
+      "name": "[G]oto",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "d",
+          "name": "[G]oto [D]efinition",
+          "type": "command",
+          "command": "editor.revealDefinition"
+        },
+        {
+          "key": "r",
+          "name": "[G]oto [R]eferences",
+          "type": "command",
+          "command": "editor.action.goToReferences"
+        },
+        {
+          "key": "i",
+          "name": "[G]oto [I]mplementation",
+          "type": "command",
+          "command": "editor.action.goToImplementation"
+        },
+        {
+          "key": "D",
+          "name": "[G]oto [D]eclaration",
+          "type": "command",
+          "command": "editor.action.revealDeclaration"
+        },
+        {
+          "key": "t",
+          "name": "[G]oto [T]ype Definition",
+          "type": "command",
+          "command": "editor.action.goToTypeDefinition"
+        }
+      ]
+    },
+    {
+      "key": "d",
+      "name": "[D]ocument",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "s",
+          "name": "[D]ocument [S]ymbols",
+          "type": "command",
+          "command": "workbench.action.gotoSymbol"
+        }
+      ]
+    }
+  ]
+}
