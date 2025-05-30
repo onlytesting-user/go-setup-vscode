@@ -308,28 +308,10 @@
     {
       "before": [
         "g",
-        "D"
-      ],
-      "commands": [
-        "editor.action.goToTypeDefinition"
-      ]
-    },
-    {
-      "before": [
-        "g",
         "r"
       ],
       "commands": [
         "editor.action.goToReferences"
-      ]
-    },
-    {
-      "before": [
-        "g",
-        "i"
-      ],
-      "commands": [
-        "editor.action.goToImplementation"
       ]
     }
   ],
