@@ -81,6 +81,11 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
+    "key": "space g i",
+    "command": "editor.action.goToImplementation",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
     "key": "space g r",
     "command": "editor.action.referenceSearch.trigger",
     "when": "vim.mode == 'Normal' && editorHasReferenceProvider && editorTextFocus"
