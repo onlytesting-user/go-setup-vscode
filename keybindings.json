@@ -127,11 +127,6 @@
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "space b p",
-    "command": "workbench.action.showCommands",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
-  {
     "command": "workbench.action.gotoSymbol",
     "key": "space b s",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"

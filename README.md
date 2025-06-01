@@ -36,7 +36,6 @@ ctrl + shift + up | All | Copia uma linha ou bloco para cima
 ctrl + shift + down | All | Copia uma linha ou bloco para baixo
 ctrl + ] | All | Abre e fecha o terminal
 Space Space | Normal | Abre o quickOpen do VS Code
-Space b p | Normal | Abre o input de pesquisa por arquivos do VS Code
 Space b s | Normal | Mostra cada configuração definida no arquivo atual no formato de símbolos
 Space b q | Normal | Abre o quickOpenView do VS Code (o que permite navegar pela Activity Bar quando a mesma está oculta)
 Space b d | Normal | Fecha o arquivo atual
