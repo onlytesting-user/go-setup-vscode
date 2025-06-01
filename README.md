@@ -1,36 +1,34 @@
 # Keybindings
 
-keybinding (vim-like) | Vim Modes | Utility
+keybinding (custom) | Vim Modes | Utility
 ---|---|---
 gc | Normal, Visual | Comenta a linha onde o cursor está
 K | Normal | Mostra o hover do VS Code (só funcionarão em arquivos de código que têm suporte a LSP)
 gd | Normal | Vai à definição do trecho de código onde o cursor está
-gD | Normal | Vai à declaração do trecho de código onde o cursor está
-gi | Normal | Vai à implementação do trecho de código onde o cursor está
-gr | Normal | Mostra todas as referências do trecho de código onde o cursor está
 gy | Normal | Copia o caminho do arquivo
 leader | Visual | Mostra a lista de which keys definidas (o leader é representado pela tecla space)
-"<" | Visual | Indenta a linha para esquerda
-">" | Visual | Indenta a linha para direita
+&lt; | Visual | Indenta a linha para esquerda
+&gt; | Visual | Indenta a linha para direita
 jk | Insert | Sai do modo Insert e volta para o Normal
 jj | Insert | Sai do modo Insert e volta para o Normal
 ctrl + / | All | Exibe e oculta a Primary Side Bar
-a | -- | Cria um novo arquivo no Explorer
-f | -- | Cria uma nova pasta no Explorer
-s | -- | Abre um arquivo do Explorer no modo split
-c | -- | Copia um arquivo no Explorer
-x | -- | Corta um arquivo no Explorer
-p | -- | Cola um arquivo anteriormente copiado/cortado no Explorer
-d | -- | Deleta um arquivo no Explorer
-r | -- | Renomeia um arquivo no Explorer
-gy | -- | Copia o caminho de um arquivo no Explorer
+a | Explorer | Cria um novo arquivo no Explorer
+f | Explorer | Cria uma nova pasta no Explorer
+s | Explorer | Abre um arquivo do Explorer no modo split
+c | Explorer | Copia um arquivo no Explorer
+x | Explorer | Corta um arquivo no Explorer
+p | Explorer | Cola um arquivo anteriormente copiado/cortado no Explorer
+d | Explorer | Deleta um arquivo no Explorer
+r | Explorer | Renomeia um arquivo no Explorer
+gy | Explorer | Copia o caminho de um arquivo no Explorer
 ctrl + n | Normal, Visual | Seleciona a próxima ocorrência de um caractere ou cadeia de caractere selecionada
-ctrl + ~ | -- | Executa um código elegível para o Code Runner (necessita da extensão Code Runner instalada)
+ctrl + ~ | Normal, Insert | Executa um código elegível para o Code Runner (necessita da extensão Code Runner instalada)
 Space s f | Normal | Formata um determinado documento
 Space m p | Normal | Abre o Preview de um arquivo Markdown
 Space m s | Normal | Abre o Preview de um arquivo Markdown no modo split
 Space g l | Normal | Vai para uma determinada linha
 Space g r | Normal | Abre o hover com todas as referências ao determinado trecho do código onde o cursor está
+Space g i | Normal | Vai à implementação do trecho de código onde o cursor está
 Space g f | Normal | Pesquisa todas as ocorrências de um caractere ou cadeia de caractere no arquivo
 Space g n | Normal | Abre um novo arquivo sem título
 Space g s | Normal | Faz com que o arquivo atual seja aberta ao lado direito (modo split)
@@ -38,7 +36,7 @@ ctrl + shift + up | All | Copia uma linha ou bloco para cima
 ctrl + shift + down | All | Copia uma linha ou bloco para baixo
 ctrl + ] | All | Abre e fecha o terminal
 Space Space | Normal | Abre o quickOpen do VS Code
-Space b p | Normal | Mostra os comandos do VS Code
+Space b p | Normal | Abre o input de pesquisa por arquivos do VS Code
 Space b s | Normal | Mostra cada configuração definida no arquivo atual no formato de símbolos
 Space b q | Normal | Abre o quickOpenView do VS Code (o que permite navegar pela Activity Bar quando a mesma está oculta)
 Space b d | Normal | Fecha o arquivo atual
@@ -59,6 +57,7 @@ ctrl + {1-9} | Normal | Muda para o arquivo presente no slot especificado pelo n
 
 keybinding (vs code) | Utility
 ---|---
+ctrl + shift + p | Abre o input de pesquisa por arquivos do VS Code
 ctrl + shift + e | Redireciona a Primary Side Bar para a aba de Explorer
 ctrl + shift + f | Redireciona a Primary Side Bar para a aba de Search
 ctrl + shift + g | Redireciona a Primary Side Bar para a aba de Source Control (Git)
@@ -90,7 +89,7 @@ alt + F8 | Pula para o próximo Erro, Aviso ou Informação de código
 
 # Extensions
 
-keybinding (vim-like) |
+Extensions |
 ---|
 Better Comments
 Brazilian Portuguese - Code Spell Checker
