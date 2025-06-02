@@ -51,6 +51,20 @@ Space h m | Normal | Abre o arquivo que contém todos os outros arquivos adicion
 ctrl + {1-9} | Normal | Muda para o arquivo presente no slot especificado pelo número após o ctrl
 
 <br>
+
+Alguns keybindings acima usam o padrão WhichKey (Space * *). Abaixo está uma tabela que serve como um guia semântico para fácil identificação do contexto em que cada um desses padrões atalhos se aplica:
+
+Word | Context
+--- | ---
+Space c * | Code
+Space f * | File
+Space w * | Window
+Space m * | Markdown
+Space g * | Goto
+Space b * | Buffers
+Space h * | Harpoon
+
+<br>
 <br>
 <br>
 
