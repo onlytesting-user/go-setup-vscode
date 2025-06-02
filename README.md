@@ -23,18 +23,18 @@ r | Explorer | Renomeia um arquivo no Explorer
 gy | Explorer | Copia o caminho de um arquivo no Explorer
 ctrl + n | Normal, Visual | Seleciona a próxima ocorrência de um caractere ou cadeia de caractere selecionada
 ctrl + ~ | Normal, Insert | Executa um código elegível para o Code Runner (necessita da extensão Code Runner instalada)
-Space s f | Normal | Formata um determinado documento
+ctrl + shift + down | All | Copia uma linha ou bloco para baixo
+ctrl + ] | All | Abre e fecha o terminal
+ctrl + shift + up | All | Copia uma linha ou bloco para cima
+Space c f | Normal | Formata um determinado documento
 Space m p | Normal | Abre o Preview de um arquivo Markdown
 Space m s | Normal | Abre o Preview de um arquivo Markdown no modo split
 Space g l | Normal | Vai para uma determinada linha
 Space g r | Normal | Abre o hover com todas as referências ao determinado trecho do código onde o cursor está
 Space g i | Normal | Vai à implementação do trecho de código onde o cursor está
-Space g f | Normal | Pesquisa todas as ocorrências de um caractere ou cadeia de caractere no arquivo
-Space g n | Normal | Abre um novo arquivo sem título
-Space g s | Normal | Faz com que o arquivo atual seja aberta ao lado direito (modo split)
-ctrl + shift + up | All | Copia uma linha ou bloco para cima
-ctrl + shift + down | All | Copia uma linha ou bloco para baixo
-ctrl + ] | All | Abre e fecha o terminal
+Space / | Normal | Pesquisa todas as ocorrências de um caractere ou cadeia de caractere no arquivo
+Space f n | Normal | Abre um novo arquivo sem título
+Space w s | Normal | Faz com que o arquivo atual seja aberto ao lado direito (modo split)
 Space Space | Normal | Abre o quickOpen do VS Code
 Space b s | Normal | Mostra cada configuração definida no arquivo atual no formato de símbolos
 Space b q | Normal | Abre o quickOpenView do VS Code (o que permite navegar pela Activity Bar quando a mesma está oculta)
@@ -44,8 +44,8 @@ Space b w | Normal | Fecha todos os arquivos do grupo
 Space b c | Normal | Fecha todos os arquivos de outros grupos que não o atual
 ctrl + h | Normal, Visual | Muda o foco para um arquivo a esquerda (quando tem vários grupos diferentes aberto em split)
 ctrl + l | Normal, Visual | Muda o foco para um arquivo a direita (quando tem vários grupos diferentes aberto em split)
-ctrl + k | Normal, Visual | Muda o foco para um arquivo acima (quando tem vários grupos diferentes aberto em split)
-ctrl + j | Normal, Visual | Muda o foco para um arquivo abaixo (quando tem vários grupos diferentes aberto em split)
+ctrl + k | Normal, Visual | Muda o foco para um arquivo acima (quando tem vários grupos diferentes abertos em modo split)
+ctrl + j | Normal, Visual | Muda o foco para um arquivo abaixo (quando tem vários grupos diferentes abertos em modo split)
 Space a | Normal | Adiciona o arquivo atual ao harpoon no próximo slot vago
 Space h m | Normal | Abre o arquivo que contém todos os outros arquivos adicionados ao harpoon, permitindo que a ordem seja alterada ou mesmo que um slot seja liberado
 ctrl + {1-9} | Normal | Muda para o arquivo presente no slot especificado pelo número após o ctrl
