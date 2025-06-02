@@ -54,7 +54,7 @@ ctrl + {1-9} | Normal | Muda para o arquivo presente no slot especificado pelo n
 
 Alguns keybindings acima usam o padrão WhichKey (Space * *). Abaixo está uma tabela que serve como um guia semântico para fácil identificação do contexto em que cada um desses padrões atalhos se aplica:
 
-Word | Context
+Letter Pattern | Context
 --- | ---
 Space c * | Code
 Space f * | File
