@@ -101,7 +101,7 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space g s",
+    "key": "space w s",
     "command": "workbench.action.splitEditor",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
