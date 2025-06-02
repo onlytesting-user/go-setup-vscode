@@ -96,7 +96,7 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space g n",
+    "key": "space f n",
     "command": "workbench.action.files.newUntitledFile",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
