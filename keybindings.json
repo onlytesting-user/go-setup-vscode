@@ -91,7 +91,7 @@
     "when": "vim.mode == 'Normal' && editorHasReferenceProvider && editorTextFocus"
   },
   {
-    "key": "space g f",
+    "key": "space /",
     "command": "actions.find",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
