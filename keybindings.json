@@ -61,7 +61,7 @@
     "command": "code-runner.run"
   },
   {
-    "key": "space s f",
+    "key": "space c f",
     "command": "editor.action.formatDocument",
     "when": "editorHasCodeActionsProvider && vim.mode == 'Normal' && editorTextFocus"
   },
