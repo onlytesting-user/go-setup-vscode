@@ -207,7 +207,6 @@
     "-cover",
     "-count=1",
     "-race",
-    "-s",
     "-benchtime=5s",
     "-timeout=5m"
   ],
