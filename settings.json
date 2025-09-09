@@ -181,11 +181,6 @@
       "strings": "on"
     }
   },
-  "[go.mod]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "always"
-    }
-  },
   "gopls": {
     "analyses": {
       "unusedparams": true,
