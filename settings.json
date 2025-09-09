@@ -157,7 +157,7 @@
   "go.inlayHints.rangeVariableTypes": true,
   "go.inlayHints.constantValues": true,
   "go.coverageDecorator": {
-    "type": "gutter"
+    "type": "highlight"
   },
   "go.enableCodeLens": {
     "runtest": true
