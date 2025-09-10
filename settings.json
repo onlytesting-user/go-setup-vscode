@@ -142,7 +142,7 @@
   },
   // * Configs for Go
   "go.lintTool": "golangci-lint",
-  "go.lintOnSave": "file",
+  "go.lintOnSave": "package",
   "go.testOnSave": false, // for easy activation/deactivation
   "go.coverOnSave": false, // for easy activation/deactivation
   "go.diagnostic.vulncheck": "Imports",
