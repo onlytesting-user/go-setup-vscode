@@ -143,6 +143,7 @@
   // * Configs for Go
   "go.lintTool": "golangci-lint",
   "go.lintOnSave": "package",
+  "go.vetOnSave": "package",
   "go.testOnSave": false, // for easy activation/deactivation
   "go.coverOnSave": false, // for easy activation/deactivation
   "go.diagnostic.vulncheck": "Imports",
@@ -335,7 +336,7 @@
         "editor.action.indentLines"
       ]
     }
-   ],
+  ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
       "before": [
