@@ -166,6 +166,7 @@
   "go.addTags": {
     "tags": "json,db",
     "options": "json=omitempty",
+    "promptForTags": false, // for easy change purposes
     "transform": "snakecase"
   },
   "[go]": {
