@@ -1,4 +1,4 @@
-# Keybindings
+# Custom Keybindings
 
 keybinding (custom) | Vim Modes | Utility
 ---|---|---
@@ -51,6 +51,10 @@ Space h m | Normal | Abre o arquivo que contém todos os outros arquivos adicion
 ctrl + {1-9} | Normal | Muda para o arquivo presente no slot especificado pelo número após o ctrl
 
 <br>
+<br>
+<br>
+
+# WhichKey Letter Pattern
 
 Alguns keybindings acima usam o padrão WhichKey (Space * *). Abaixo está uma tabela que serve como um guia semântico para fácil identificação do contexto em que cada um desses padrões de atalhos se aplica:
 
@@ -67,6 +71,8 @@ Space h * | Harpoon
 <br>
 <br>
 <br>
+
+# VS Code Keybindings
 
 keybinding (vs code) | Utility
 ---|---
