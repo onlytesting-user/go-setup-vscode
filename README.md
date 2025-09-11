@@ -1,3 +1,14 @@
+# Summary
+
+1. [Custom Keybindings](#custom-keybindings)
+2. [WhichKey Letter Pattern](#whichkey-letter-pattern)
+3. [VS Code Keybindings](#vs-code-keybindings)
+4. [Extensions](#extensions)
+
+<br>
+<br>
+<br>
+
 # Custom Keybindings
 
 keybinding (custom) | Vim Modes | Utility
