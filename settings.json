@@ -42,12 +42,16 @@
   },
   "files.exclude": {
     "**/.git": true,
-    "**/.vscode": true,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true
+    "**/Thumbs.db": true,
+    "**/*.out": true,
+    "**/*.test": true,
+    "**/coverage/**": true,
+    "**/dist/**": true,
+    "**/.cache/**": true
   },
   "files.watcherExclude": {
     "**/bin/**": true,
