@@ -82,14 +82,14 @@
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "*.go": "${capture}_test.go, ${capture}_mock.go, ${capture}_gen.go, ${capture}_pb.go",
+    "*.go": "${capture}_test.go, ${capture}_mock.go, ${capture}_gen.go, ${capture}_pb.go, ${capture}_grpc.pb.go, ${capture}_swagger.pb.go",
     "go.mod": "go.sum",
-    ".env": ".*.env, .env.*, *.env.",
+    ".env": ".env.*, *.env",
     "Dockerfile": "Dockerfile*, .dockerignore",
-    "README.md": "*.md, LICENSE",
-    ".gitattributes": ".gitmodules, .gitignore, .gitkeep, .gitlab-ci.yml",
+    "README.md": "CONTRIBUTING.md, CHANGELOG.md, LICENSE",
+    ".gitignore": ".gitattributes, .gitmodules, .gitkeep, .gitlab-ci.yml",
     "Makefile": "*.mk",
-    "schema.sql": "*.sql, *.db, *.sqlite, *.pgsql"
+    "schema.sql": "schema_*.sql, *.db, *.sqlite, *.pgsql"
   },
   // * diffEditor Configs
   "diffEditor.hideUnchangedRegions.enabled": true,
