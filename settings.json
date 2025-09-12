@@ -38,6 +38,7 @@
   "files.insertFinalNewline": true,
   "files.associations": {
     "*.json": "jsonc",
+    "*.yml": "yaml",
     "*.yaml": "yaml"
   },
   "files.exclude": {
@@ -230,10 +231,8 @@
   },
   // * Configs for YAML
   "yaml.schemas": {
-    "kubernetes": [
-      "/*.yaml",
-      "/*.yml"
-    ]
+    "https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.27.0-standalone-strict/all.json": "k8s/*.yaml",
+    "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json": "docker-compose*.yml"
   },
   // * Configs for Markdown
   "markdown-preview-github-styles.colorTheme": "dark",
