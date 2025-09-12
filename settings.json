@@ -59,7 +59,9 @@
     "**/.vscode-test/**": true,
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
-    "**/.hg/store/**": true
+    "**/.hg/store/**": true,
+    "**/dist/**": true,
+    "**/coverage/**": true
   },
   // * Terminal Configs
   "terminal.integrated.fontSize": 15,
