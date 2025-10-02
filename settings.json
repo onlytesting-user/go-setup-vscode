@@ -145,7 +145,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.empty.hint": "hidden",
   "workbench.colorCustomizations": {
-    "terminal.ansiCyan": "#FFA500"
+    "terminal.ansiCyan": "#FEBD45"
   },
   // * Configs for Go
   "go.lintTool": "golangci-lint",
