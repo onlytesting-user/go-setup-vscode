@@ -250,6 +250,7 @@
   },
   // * Configs for Code Spell Checker
   "cSpell.language": "en,pt,pt_BR",
+  "cSpell.diagnosticLevel": "Hint",
   // * Configs for Vim
   "vim.useSystemClipboard": true,
   "vim.easymotion": false,
