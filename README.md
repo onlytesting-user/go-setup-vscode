@@ -141,7 +141,6 @@ Kubernetes
 Material Icon Theme
 One Dark Pro Monokai Darker Theme
 Reload
-Theme by language
 Vim
 VSCode Harpoon
 Which Key

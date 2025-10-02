@@ -237,12 +237,6 @@
   // * Configs for Markdown
   "markdown-preview-github-styles.colorTheme": "dark",
   "markdown.validate.enabled": true,
-  // * Configs for Themes
-  "theme-by-language.themes": {
-    "*": "One Dark Pro Monokai Darker",
-    "filename:COMMIT_EDITMSG": "Default Dark Modern",
-    "filename:MERGE_MSG": "Default Dark Modern"
-  },
   // * Configs for Database Client
   "database-client.autoSync": true,
   // * Configs for Code Runner
