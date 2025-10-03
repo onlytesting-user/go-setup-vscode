@@ -52,7 +52,6 @@ Space b q | Normal | Abre o quickOpenView do VS Code (o que permite navegar pela
 Space b d | Normal | Fecha o arquivo atual
 Space b o | Normal | Fecha os outros arquivos
 Space b w | Normal | Fecha todos os arquivos do grupo
-Space b c | Normal | Fecha todos os arquivos de outros grupos que não o atual
 ctrl + h | Normal, Visual | Muda o foco para um arquivo a esquerda (quando tem vários grupos diferentes aberto em split)
 ctrl + l | Normal, Visual | Muda o foco para um arquivo a direita (quando tem vários grupos diferentes aberto em split)
 ctrl + k | Normal, Visual | Muda o foco para um arquivo acima (quando tem vários grupos diferentes abertos em modo split)

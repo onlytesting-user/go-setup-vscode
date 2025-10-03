@@ -152,11 +152,6 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space b c",
-    "command": "workbench.action.closeEditorsInOtherGroups",
-    "when": "vim.mode == 'Normal'"
-  },
-  {
     "key": "ctrl+h",
     "command": "workbench.action.focusLeftGroup",
     "when": "vim.mode != 'Insert' && !inDebugRepl && !terminalFocus && editorTextFocus"
